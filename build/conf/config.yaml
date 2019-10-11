@@ -1,0 +1,14 @@
+teiidSpringBootVersion: 1.2.0
+springBootVersion: 2.1.7.RELEASE
+mavenRepositories:
+  central: https://repo.maven.apache.org/maven2
+productized: false
+buildImage:
+  registry: registry.redhat.io
+  prefix: fuse7
+  name: fuse-java-openshift
+  tag: 1.5
+drivers:
+  postgresql: 42.1.4
+  mysql: 5.1.40
+  mongodb: 3.6.3
