@@ -12,6 +12,11 @@ drivers:
   postgresql: 42.2.8
   mysql: 5.1.40
   mongodb: 3.6.3
+  narayana: 2.1.0
 prometheus:
   matchLabels:
     team: dv
+labels:
+  com.redhat.product-name: integration
+  com.redhat.product-version: 7.6
+  com.redhat.product-contains: NA
